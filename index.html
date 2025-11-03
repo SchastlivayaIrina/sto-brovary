@@ -1,39 +1,80 @@
 <!doctype html>
-<html lang="ru">
+<html lang="uk">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Мой первый сайт</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>СТО «Шиномонтаж» — Счастлива Ірина</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Привет! Это мой сайт</h1>
-    <p>Ниже — кнопка и простая форма для теста</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="logo.png" alt="Логотип" class="logo" />
+        <div class="brand-text">
+          <h1>СТО «Шиномонтаж»</h1>
+          <p class="tagline">Service &amp; Tires — Бровари</p>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <a class="phone-btn" href="tel:+380975501200">📞 +38 (097) 550-12-00</a>
+        <a class="phone-mini" href="tel:+380936530750">+38 (093) 653-07-50</a>
+        <a class="mail" href="mailto:tata_613@ukr.net">✉ tata_613@ukr.net</a>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section class="card">
-      <h2>Немного обо мне</h2>
-      <p>Это шаблон для практики. Ты можешь заменить текст и картинки.</p>
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-left">
+        <h2>Професійний шиномонтаж для вантажного та легкового транспорту</h2>
+        <p class="lead">Продаж шин, дисків та АКБ. Ремонт легкосплавних дисків. Швидко. Надійно. Для бізнесу і приватних клієнтів.</p>
+
+        <ul class="services">
+          <li>🔧 Шиномонтаж (вантажні та легкові)</li>
+          <li>🛞 Продаж шин та дисків</li>
+          <li>🔋 Продаж та обслуговування АКБ</li>
+          <li>⚙️ Ремонт легкосплавних дисків</li>
+          <li>🚚 Обслуговування комерційного транспорту</li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="cta call" href="tel:+380975501200">Зателефонувати</a>
+          <a class="cta contact" href="mailto:tata_613@ukr.net">Написати e-mail</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="hero.jpg" alt="Шини та диски" class="hero-img" />
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Форма обратной связи</h2>
-      <form id="contactForm">
-        <label>Имя:<input id="name" type="text" placeholder="Ваше имя" /></label>
-        <label>Сообщение:<textarea id="message" placeholder="Напишите..."></textarea></label>
-        <button type="submit">Отправить</button>
-      </form>
-      <div id="result"></div>
+    <section id="about" class="card">
+      <h3>Про нас</h3>
+      <p>СТО «Шиномонтаж» — команда фахівців з багаторічним досвідом. Працюємо з високоякісними шинами та дисками, пропонуємо експрес-обслуговування та гарантійний сервіс.</p>
     </section>
 
-    <section class="card">
-      <h2>Кнопка тест</h2>
-      <button id="myBtn">Нажми меня</button>
+    <section id="map" class="card">
+      <h3>Де нас знайти</h3>
+      <p>м. Бровари, вул. Січових Стрільців, 1</p>
+      <!-- Вставити iframe карти (замінити src на справжню карту, якщо потрібно) -->
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=Бровари,%20вул.%20Січових%20Стрільців%201&output=embed"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </section>
+
+    <section id="more" class="card">
+      <h3>Опис послуг</h3>
+      <p><strong>Шиномонтаж:</strong> монтаж/демонтаж, балансування, сезонна заміна. <strong>Продаж:</strong> підбір шин і дисків за параметрами автомобіля. <strong>АКБ:</strong> підбір, діагностика, заміна. <strong>Ремонт дисків:</strong> правка, фарбування, покриття.</p>
+    </section>
+
+    <footer class="card footer">
+      <div>© СТО «Шиномонтаж», м. Бровари</div>
+      <div>Тел: <a href="tel:+380975501200">+38 (097) 550-12-00</a> • e-mail: <a href="mailto:tata_613@ukr.net">tata_613@ukr.net</a></div>
+    </footer>
   </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
