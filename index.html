@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Мой первый сайт</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Привет! Это мой сайт</h1>
+    <p>Ниже — кнопка и простая форма для теста</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Немного обо мне</h2>
+      <p>Это шаблон для практики. Ты можешь заменить текст и картинки.</p>
+    </section>
+
+    <section class="card">
+      <h2>Форма обратной связи</h2>
+      <form id="contactForm">
+        <label>Имя:<input id="name" type="text" placeholder="Ваше имя" /></label>
+        <label>Сообщение:<textarea id="message" placeholder="Напишите..."></textarea></label>
+        <button type="submit">Отправить</button>
+      </form>
+      <div id="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Кнопка тест</h2>
+      <button id="myBtn">Нажми меня</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
