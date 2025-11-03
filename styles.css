@@ -55,7 +55,7 @@ body{
 .footer{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
 
 /* Responsiveness */
-@media(max-width:900px){
+@media(max-width:200px){
   .hero{flex-direction:column}
   .hero-right{width:100%;order:2}
   .contacts{align-items:flex-start}
@@ -82,7 +82,7 @@ body{
   background: linear-gradient(90deg, #444, #666);
 }
 .logo {
-  width: 100px; /* увеличь число для ещё большего логотипа */
+  width: 200px; /* увеличь число для ещё большего логотипа */
   height: auto;
   display: block;
   margin: 20px auto;
