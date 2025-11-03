@@ -82,12 +82,12 @@ body{
   background: linear-gradient(90deg, #444, #666);
 }
 .logo {
-  .logo {
-  width: 100px;
-}
+  width: 200px; /* увеличь число для ещё большего логотипа */
   height: auto;
   display: block;
   margin: 20px auto;
+}
+
 }
 .section {
   margin: 50px auto;
