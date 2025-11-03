@@ -87,12 +87,6 @@ body{
   display: block;
   margin: 20px auto;
 }
-.hero {
-  width: 300px; /* увеличь число для ещё большего логотипа */
-  height: auto;
-  display: block;
-  margin: 20px auto;
-}
 .section {
   margin: 50px auto;
   max-width: 800px;
